@@ -40,35 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-.upload-section, .download-section {
-  margin: 20px 0;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-
-.upload-section h3, .download-section h3 {
-  margin-top: 0;
-  color: #333;
-}
-
-button {
-  background-color: #4285f4;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 5px;
-}
-
-button:hover {
-  background-color: #3367d6;
-}
-
-input[type="file"] {
-  margin: 10px 0;
-  padding: 8px;
-}
