@@ -1,0 +1,17 @@
+services:
+  api:
+    build: ./API
+    container_name: flask-api
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+    depends_on: []
+
+  frontend:
+    build: ./Frontend
+    container_name: react-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
